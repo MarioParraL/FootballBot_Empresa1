@@ -1,7 +1,7 @@
 import "jsr:@std/dotenv/load";
 
 const GEMINI_KEY = Deno.env.get("GEMINI_API_KEY");
-
+// CON GEMINI
 export async function generateSmartSummary(
   title: string,
   description: string,
